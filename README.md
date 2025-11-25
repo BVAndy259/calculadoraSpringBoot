@@ -1,24 +1,37 @@
-# 🧮 Calculadora Spring Boot
+# Calculadora Spring Boot
 
 Calculadora básica desarrollada con **Spring Boot** en el backend y **HTML/CSS** en el frontend.
 
-## ✨ Características
+## Características
 
-- ➕ Suma
-- ➖ Resta
-- ✖️ Multiplicación
-- ➗ División
-- 🎨 Interfaz moderna y responsive
-- ⚠️ Validación de errores (división por cero, campos vacíos)
-- 🚀 API REST
+- Suma
+- Resta
+- Multiplicación
+- División
+- Interfaz moderna y responsive
+- Validación de errores (división por cero, campos vacíos)
+- API REST
 
-## 📋 Requisitos
+## Requisitos
 
 - Java 17 o superior
-- Maven 3.6+
+- Maven 3.6+: Instalar desde terminal con winget o desde la pagina de Maven (https://maven.apache.org/download.cgi)
 - Navegador web moderno
 
-## 🚀 Instalación y Ejecución
+## Vericación de Requisitos
+
+1. **Java**
+```bash
+javac --version
+```
+
+2. **Maven**
+```bash
+mvn -version
+```
+Nota: Si no reconoce el comando Maven o Java, verifica si la carpeta bin esta en el Path de Variables del Sistema.
+
+## Instalación y Ejecución
 
 1. **Clonar el repositorio**
 ```bash
@@ -41,7 +54,7 @@ mvn spring-boot:run
 http://localhost:8080
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 calculadoraSpringBoot/
@@ -64,14 +77,14 @@ calculadoraSpringBoot/
 └── pom.xml
 ```
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Backend**: Spring Boot 3.2.0
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Build Tool**: Maven
 - **Java**: 17
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### POST /calculate
 Realiza operaciones matemáticas básicas.
@@ -95,18 +108,14 @@ Realiza operaciones matemáticas básicas.
 
 **Operaciones disponibles:** `sumar`, `restar`, `multiplicar`, `dividir`
 
-## 📸 Captura de Pantalla
+## Captura de Pantalla
 
 La calculadora presenta una interfaz moderna con gradiente morado, botones animados y un display grande para visualizar los resultados.
 
-## 🤝 Contribuir
+## Contribuir
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request.
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
-
----
-
-Desarrollado con ❤️ usando Spring Boot
